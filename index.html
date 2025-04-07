@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+  <!-- Cart Container -->
+  <div class="cart-container">
+    <h1>Cart</h1>
+    <button class="cart-close-btn">×</button>
+  </div>
+
+  <!-- Product Modal -->
+  <div class="show-product-page"></div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <nav>
+      <h1>RedPlanet</h1>
+
+      <div class="dropdown">
+        <!-- Category dropdown (optional) -->
+      </div>
+
+      <div class="hamburger">&#9776;</div>
+      <div class="right-div">
+        <h2 id="home">Home</h2>
+        <h2>Contact</h2>
+        <h2>About</h2>
+        <div class="cart-div">
+          <i class="ri-shopping-cart-line"></i>
+        </div>
+      </div>
+    </nav>
+
+    <div class="all-categories">
+      <h1>All Categories</h1>
+      <div class="Category">
+        <!-- Dynamically loaded product cards -->
+      </div>
+    </div>
+  </div>
+
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
